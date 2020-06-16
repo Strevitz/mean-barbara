@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: green;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 5rem;
+    align-self: center;
+}
+
+.content{
+    font-size: 3rem;
+}
